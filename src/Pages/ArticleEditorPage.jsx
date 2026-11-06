@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import toast from "react-hot-toast";
 import { FiInfo, FiSave, FiTag, FiX } from "react-icons/fi";
-import QuillEditor from "../components/QuillEditor";
+import QuillEditor from "../Components/QuillEditor";
 import { useAuth } from "../context/AuthContext";
 import { useNavigate, useParams } from "react-router";
 import { uploadImage } from "../Libarery/Storage";
